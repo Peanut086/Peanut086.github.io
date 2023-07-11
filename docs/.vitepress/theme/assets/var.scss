@@ -1,0 +1,29 @@
+/*
+字体相关
+*/
+:root {
+  --pn-site-name-font-size: 50px; // 站点名称字体大小
+  --pn-site-desc-font-size: 20px; // 站点描述字体大小
+  --pn-font-base-size: 14px; // 基础字体大小
+  --pn-font-base-color: #000; // 基础字体颜色
+  --pn-font-title-size: 20px; // 标题字体大小
+  --pn-font-title-color: pink; // 标题字体颜色
+  --pn-font-name-size: 24px; // 名称字体大小
+  // fontWeight
+  --pn-font-weight-light: 300;
+  --pn-font-weight-normal: 400;
+  --pn-font-weight-bold: 600;
+}
+
+/*
+块样式相关
+*/
+:root {
+  --pn-block-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  --pn-block-radius: 4px;
+  --pn-block-padding: 20px;
+}
+
+.dark {
+  --pn-font-base-color: #fff;
+}

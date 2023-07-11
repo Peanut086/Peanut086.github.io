@@ -1,0 +1,31 @@
+{
+  "name": "vitepress-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "@vicons/tabler": "^0.12.0",
+    "naive-ui": "^2.34.4",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "vitepress": "1.0.0-alpha.28",
+    "vue": "3.2.44",
+    "vue-loader": "^17.0.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "dependencies": {
+    "@tabler/icons": "^2.24.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "typescript": "^5.1.6"
+  }
+}
